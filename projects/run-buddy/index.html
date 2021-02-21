@@ -30,10 +30,43 @@
           </li>
         </ul>
       </nav>
+
     </header>
 
     <!-- hero/jumbotron-->
-    <section></section>
+    <section>
+        <div> 
+          <h3> Get Started Today</h3>
+          <p> Fill out this form and one of our trainers will scheadul a consult</p>
+          <form> 
+              <label for="name"> Enter Full Name</label>
+              <input type="text" placeholder="Your Name:" name="name" id="name"/>
+
+              <label for="email">Enter Email Address</label> 
+              <input type="email" placeholder="Email Address:" name="address" id="address" />
+
+              <label for="phone"> Enter a Telephone Number</label>
+              <input type="tel" placeholder="Phone Number:" name="phone" id="phone"/>
+
+              <p> 
+                  Have you ever worked with a trainer before? 
+                  <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                  <label for="trainer-yes">Yes</label> 
+                  <input type="radio" name="trainer-confirm" id="trainer-no">
+                  <label for="trainer-no">No</label>
+              </p>
+              <p> 
+                  <label for="checkbox"> 
+                      I acknowledge that I am at least 18 years of age.
+                    </label>
+                  <input type="checkbox" name="age-confrim" id="checkbox" />
+              </p>
+
+              <button type="submit" id="form-submit"> Get Running</button>
+              <label
+          </form>  
+        </div>
+    </section>
 
     <!-- what we do section-->
     <section>
@@ -57,7 +90,11 @@
 
     <!-- footer-->
     <footer>
-      <h2>made with some kind of love</h2>
+      <h2> &hearts; Made with some kind of love</h2>
+      <div>
+          <a href="#"> Read Our Privacy Policy</a><br/>
+          &copy; Run Buddy, Inc.
+      </div> 
     </footer>
   </body>
 </html>
