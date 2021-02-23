@@ -192,6 +192,36 @@ section h3 {
   text-align: right;
 }
 
+.contact {
+  background-color: #024e76;
+  text-align: center;
+}
+
+.contact h2 {
+  color: #fce138;
+}
+
+.contact-info {
+  overflow: auto;
+}
+
+.contact-info h3 {
+  color: #fce138;
+  padding: 0 0 20px 0;
+}
+
+.contact p {
+  color: white;
+}
+
+.contact address {
+  color: white;
+}
+
+address a {
+  color: #fce138;
+}
+
 footer {
   padding: 40px 35px;
   width: 100%;
