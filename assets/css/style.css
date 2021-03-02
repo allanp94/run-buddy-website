@@ -46,7 +46,7 @@ section h3 {
 }
 
 .hero {
-  background-image: url(../img/hero-bg-img.jpg);
+  background-image: url(../img/hero-bg.jpg);
   height: 600px;
   background-size: cover;
   background-position: center;
